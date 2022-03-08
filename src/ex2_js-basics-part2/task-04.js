@@ -1,11 +1,7 @@
 function checkEqual(arrayToCheck) {
   const uniqueSet = new Set(arrayToCheck);
 
-  if (uniqueSet.size === 1) {
-    return true;
-  }
-
-  return false;
+  return uniqueSet.size === 1;
 }
 
 module.exports = checkEqual;

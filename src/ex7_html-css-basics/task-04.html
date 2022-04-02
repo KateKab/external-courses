@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Kate Zhavoronkova" />
+    <meta
+      name="description"
+      content="Second task of HTML. Sample HTML layout"
+    />
+    <title>Sample HTML layout</title>
+    <style>
+      ol {
+        background-color: #f0e68c;
+      }
+      ul {
+        background-color: #90ee90;
+      }
+      dl {
+        background-color: #ffb6c1;
+      }
+      p::first-letter {
+        font-size: 150%;
+        font-weight: 500;
+        color: #dc143c;
+      }
+      h1 {
+        text-align: center;
+      }
+      img {
+        box-shadow: 10px 10px 10px orange;
+      }
+    </style>
+    <link rel="stylesheet" href="task-04.css" />
+  </head>
+  <body>
+    <h1>HTML Basics</h1>
+    <h2>Lists</h2>
+    <div class="list">
+      <h3 class="list_h">Ordered list</h3>
+      <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+        <li>fourth item</li>
+        <li>fifth item</li>
+      </ol>
+    </div>
+    <div class="list">
+      <h3 class="list_h">Unordered list</h3>
+      <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+      </ul>
+    </div>
+    <div class="list">
+      <h3 class="list_h">Description list</h3>
+      <dl>
+        <dt>Name</dt>
+        <dd>Godzilla</dd>
+        <dt>Born</dt>
+        <dd>1952</dd>
+        <dt>Burthplace</dt>
+        <dd>Japan</dd>
+        <dt>Color</dt>
+        <dd>Green</dd>
+      </dl>
+    </div>
+    <div class="list">
+      <h3 class="list_h">Nested list</h3>
+      <ul>
+        <li>List item one</li>
+        <li>
+          List item two with subitems
+          <ul>
+            <li>
+              Subitem 1
+              <ul>
+                <li>SubSubitem 1</li>
+                <li>SubSubitem 2</li>
+              </ul>
+            </li>
+            <li>Subitem 2</li>
+          </ul>
+        </li>
+        <li>Final list item</li>
+      </ul>
+    </div>
+    <div class="list">
+      <h3 class="list_h">List with links</h3>
+      <ul>
+        <li><a href="www.leningradSPB.ru">Home</a></li>
+        <li><a href="www.leningradSPB.ru">News</a></li>
+        <li><a href="www.leningradSPB.ru">Contacts</a></li>
+        <li><a href="www.leningradSPB.ru">About</a></li>
+      </ul>
+    </div>
+    <hr />
+    <h2>Paragraphs</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat
+      elit eget scelerisque eleifend. Sed sagittis maximus elit, ut tempus
+      libero accumsan vel. Maecenas quis nunc mauris. Integer ac mauris auctor,
+      venenatis magna id, tincidunt nisl. Etiam nisl urna, pretium vel maximus
+      eleifend, consectetur varius odio. Suspendisse sed dolor sit amet nibh
+      aliquet aliquet. Nullam fringilla, urna et pretium condimentum, lectus
+      odio eleifend urna, ultricies interdum purus orci ut lectus. Aliquam
+      finibus vestibulum nisi, eu volutpat nulla commodo in. Nam vel tempus
+      massa. Ut eget imperdiet arcu, vel aliquam nunc. Pellentesque consectetur
+      sit amet sem ut auctor. Suspendisse eu interdum ligula. Nam ultrices nisl
+      eu neque consectetur auctor. Vestibulum ultrices, est ultricies sodales
+      ultricies, nisi sapien faucibus elit, ut condimentum elit elit non lorem.
+      Proin varius nibh eget urna dictum condimentum. Sed ut sapien sed ipsum
+      iaculis interdum sed eu leo.
+    </p>
+    <p style="width: 20%; text-align: justify">
+      Donec nec ante vel erat commodo posuere. Etiam augue sapien, convallis at
+      metus at, dignissim laoreet turpis. Aenean ornare sem nec ornare
+      malesuada. In gravida lorem id condimentum convallis. Sed iaculis
+      fermentum ipsum vitae condimentum. Integer egestas pharetra nibh, mollis
+      pulvinar nibh ultricies non. Nam at molestie est. Quisque nec neque magna.
+      Nunc aliquam massa vitae aliquet scelerisque. Aliquam sit amet sapien
+      justo. Mauris blandit laoreet congue. Phasellus mattis eget leo ac
+      imperdiet. Nulla interdum nisl in risus laoreet maximus vitae ut nunc.
+    </p>
+    <hr />
+    <h2>Tables</h2>
+    <table>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>Doe</td>
+      </tr>
+    </table>
+    <hr />
+    <h2>Image</h2>
+    <img
+      alt=""
+      src="https://w-dog.ru/wallpapers/5/17/446766116228442/kotenok-ryzhij-goluboglazyj-sirenevyj-fon.jpg"
+      style="width: 250px"
+    />
+    <hr />
+    <h2>Pre tag</h2>
+    <pre>
+    if(time &lt; 20) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+    </pre>
+  </body>
+</html>

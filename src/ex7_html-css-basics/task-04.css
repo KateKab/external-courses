@@ -1,0 +1,53 @@
+@font-face {
+    font-family: BebasNueue;
+    src: local('BebasNueue'), url(BebasNeue-Regular.ttf);
+}
+
+
+html {
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612463892_124-p-fon-sero-sinego-tsveta-173.jpg) round;
+}
+
+h1 {
+    background-color: #25628e;
+    font-family: BebasNueue;
+    font-size: 50pt;
+    color: #aed2e2;
+    text-shadow: 4px 4px 2px black;
+}
+
+.list {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.list_h {
+    text-align: center;
+    font-style: italic;
+}
+
+hr {
+    color: #25628e;
+}
+
+table {
+    border: 3px;
+    border-style: groove;
+    background-color: cadetblue;
+}
+
+td {
+    font-family: 'Segoe UI';
+    background-color: white
+}
+
+p {
+    hyphens: auto;
+    word-spacing: 0.4em;
+}
+
+pre {
+    font-size: 15pt;
+    font-style: oblique;
+}

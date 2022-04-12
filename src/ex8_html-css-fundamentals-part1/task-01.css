@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+}
+
+button::before,
+button::after {
+    content: "\2605";
+    padding: 5px;
+    color: #888888;
+    font-size: 20pt;
+}
+
+button {
+    background: linear-gradient(to bottom, #e0e0e0 50%, #c7c7c7 60%);
+    box-shadow: 0 1px 2px 1px #555555, 0 0 0 7px #e9e9ed, 0 0 0 9px white,
+        0 0 0 11px #555559;
+    color: #555559;
+    font-family: "MS Gothic";
+    font-weight: bold;
+    font-size: 18pt;
+    text-shadow: 1px 1px 1px white;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}

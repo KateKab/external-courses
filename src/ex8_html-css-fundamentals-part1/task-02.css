@@ -1,0 +1,48 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: #60b88d;
+    position: relative;
+}
+
+.box-shadow {
+    box-shadow: 7px 7px 0 0 #90cdaf, 14px 14px 0 0 #bfe3d1;
+}
+
+.pseudo::before {
+    content: "";
+    position: absolute;
+    background: #90cdaf;
+    top: 7px;
+    left: 7px;
+    z-index: -1;
+    height: 200px;
+    width: 300px;
+}
+
+.pseudo::after {
+    content: "";
+    position: absolute;
+    background: #bfe3d1;
+    top: 14px;
+    left: 14px;
+    z-index: -2;
+    height: 200px;
+    width: 300px;
+}
+
+.layer_2 {
+    background-color: #90cdaf;
+    position: absolute;
+    top: 454px;
+    left: 14px;
+    z-index: -1;
+}
+
+.layer_3 {
+    background-color: #bfe3d1;
+    position: absolute;
+    top: 461px;
+    left: 21px;
+    z-index: -2;
+}

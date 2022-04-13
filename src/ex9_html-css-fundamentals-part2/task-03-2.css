@@ -1,0 +1,20 @@
+tr:nth-child(odd) {
+    background-color: #e8edf4;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+.customer {
+    text-transform: capitalize;
+}
+
+#header {
+    background-color: #e3eaf3;
+    height: 25px;
+}
+
+.body:hover {
+    background-color: #e2e5e9;
+}

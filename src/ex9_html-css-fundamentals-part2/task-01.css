@@ -1,0 +1,32 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url(https://cstor.nn2.ru/forum/data/forum/files/2019-05/231597383-15.jpg) -10px;
+    background-size: auto 200px;
+}
+
+.transform1 div img {
+    position: relative;
+    left: -200px;
+    top: -400px;
+}
+
+.transform1, .transform1 div {
+    margin: 0 auto;
+    overflow: hidden;
+    transform: skew(15deg)
+}
+
+.transform1, .transform1 div {
+    width: 270px;
+    height: 270px;
+}
+
+.transform1 {
+    transform: rotate(45deg);
+}
+
+.transform2 {
+    transform: rotate(-45deg);
+}

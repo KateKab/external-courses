@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Kate Zhavoronkova" />
+        <link rel="stylesheet" href="task-02.css" />
+    </head>
+    <body>
+        <form method="POST" name="filter" action="http://httpbin.org/post">
+            <fieldset>
+                <legend>Personal data</legend></p>
+                <p><label for="surname">Surname </label><input type="text" id="surname"/></p>
+                <p><label for="name">First Name </label><input type="text" id="name"/></p>
+                <p><label for="midName">Middle name </label><input type="text" id="midName"/></p>
+                <p>You are
+                    <input type="radio" name="sex" id="male" /><label for="male">male</label>
+                    <input type="radio" name="sex" id="female"/><label for="female">female</label>
+                </p>
+                <p>Age <input type="number" size="5"  min="18" max="101" /></p>
+                <p>Country of Residence <select id="country">
+                    <option>Russia</option>
+                    <option>Armenia</option>
+                </select></p>
+                <p>City 
+                    <input type="checkbox" id="rzn" /><label for="rzn">Ryazan</label>
+                    <input type="checkbox" id="msc" /><label for="msc">Moscow</label>
+                </p>
+                <p>Photography <input type="file"/></p>
+                <hr />
+                <p>Title 
+                    <select size="8" multiple>
+                        <optgroup label="Technoligies">
+                            <option>Web master</option>
+                            <option>Database Administrator</option>
+                            <option>Computer-aided design</option>
+                        </optgroup>
+                        <optgroup label="Finance">
+                            <option>Economic Planning</option>
+                            <option>MAnagement accounting</option>
+                            <option>Budgeting and planning</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>Salary <input type="range"></p>
+                <p><textarea rows="10" cols="45" name="text" placeholder="Tell us about yourself..."></textarea></p>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p>Site <input type="url" pattern="https://.*"></p>
+                <p>Email <input type="email" pattern=".+@*\.com" ></p>
+                <p>Phone <input type="tel" pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></p>
+            </fieldset>
+            <p>Password <input type="password" minlength="8" required></p>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>

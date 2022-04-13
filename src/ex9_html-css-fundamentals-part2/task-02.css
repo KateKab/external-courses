@@ -1,0 +1,11 @@
+body {
+    font-family: Arial;
+}
+
+input:invalid {
+    box-shadow: 5px 0px 10px red;
+}
+
+#country {
+    width: 70px;
+}

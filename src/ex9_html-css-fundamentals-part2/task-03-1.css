@@ -1,0 +1,21 @@
+table {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+th {
+    padding: 0 10px 0 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #758699;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+tr {
+    height: 50px;
+    color: #4c637e;
+}

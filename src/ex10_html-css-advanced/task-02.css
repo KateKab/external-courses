@@ -1,0 +1,58 @@
+.field, .fieldline {
+    position: relative;
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+}
+
+.fieldline {
+    display: inline-block;
+    width: fit-content;
+    border-top: 1px solid #c8c2c1;
+    border-bottom: 1px solid #c8c2c1;
+    margin: -1.9px;
+}
+
+label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .1s linear;
+    color: #c8c2c1;
+    font-size: 10px;
+}
+
+input {
+    margin-top: 17px;
+    border: none;
+}
+
+input:invalid+label {
+    top: 3px;
+    opacity: 0;
+}
+
+input:valid+label {
+    opacity: 1;
+    top: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus+label {
+    color: #3693fd;
+}
+
+::placeholder {
+    color: #999;
+}
+
+:focus::-webkit-input-placeholder {
+    color: gray;
+}
+
+#fieldline {
+    border-left: 1px solid #c8c2c1;
+}

@@ -1,0 +1,70 @@
+html, body {
+    background-color: lightsteelblue;
+    font-family: Arial;
+}
+
+.headerTitle {
+    opacity: .8;
+    font-size: 25pt;
+    font-weight: 900;
+    color: rgb(40, 77, 146);
+    text-shadow: 0 4px 4px cornflowerblue;
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previous, .next {
+    margin: 50px;
+    width: 25px;
+    font-size: 40pt;
+    color: cornflowerblue;
+    opacity: .3;
+}
+
+.previous:hover, .next:hover {
+    opacity: 1;
+    font-size: 50pt;
+    cursor: pointer;
+}
+
+.previous:active, .next:active {
+    color: rgb(40, 77, 146);
+}
+
+.previous {
+    transform: rotate(180deg);
+}
+
+.imgWrapper {
+    margin: 30px;
+    height: 500px;
+    width: 95%;
+}
+
+.slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    animation: fade 1.5s;
+}
+
+@keyframes fade {
+    from {
+        border-radius: 5%;
+        opacity: .3
+    }
+
+    to {
+        border-radius: 0;
+        opcity: 1
+    }
+}

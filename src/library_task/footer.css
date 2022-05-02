@@ -1,0 +1,43 @@
+footer {
+    justify-self: flex-end;
+    flex: 0 1 35px;
+    background-color: #181e2c;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.questions {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+    background-color: #2f3649;
+}
+
+.questions::after {
+    content: '\f059';
+    font-family: 'fontAwesome';
+    display: block;
+    color: whitesmoke;
+}
+
+.settings {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+    background-color: #16a4fa;
+}
+
+.settings::after {
+    content: '\f013';
+    font-family: 'fontAwesome';
+    display: block;
+    color: whitesmoke;
+}

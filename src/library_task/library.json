@@ -1,0 +1,62 @@
+[
+	{
+		"cover": "assets/images/jewels_of_nizam.png",
+		"title": "jewels of nizam",
+		"author": "geeta devi",
+		"rating": 5
+	},
+	{
+		"cover": "assets/images/cakes_and_bakes.png",
+		"title": "cakes and bakes",
+		"author": "sanjeev kapoor",
+		"rating": 5
+	},
+	{
+		"cover": "assets/images/jamies_kitchen.png",
+		"title": "jamie's kitchen",
+		"author": "jamie oliver",
+		"rating": 4.5
+	},
+	{
+		"cover": "assets/images/easy_inexpensive_family_meals.png",
+		"title": "inexpensive family meals",
+		"author": "simon holst",
+		"rating": 4
+	},
+	{
+		"cover": "assets/images/paleo_slow_cooking.png",
+		"title": "paleo slow cooking",
+		"author": "chrissy gower",
+		"rating": 4.5
+	},
+	{
+		"cover": "assets/images/cook_like_an_italian.png",
+		"title": "cook like an italian",
+		"author": "tobie puttock",
+		"rating": 4
+	},
+	{
+		"cover": "assets/images/indian_cooking.png",
+		"title": "suneeta vaswani",
+		"author": "geeta devi",
+		"rating": 5
+	},
+	{
+		"cover": "assets/images/jamie_does.png",
+		"title": "jamie does",
+		"author": "jamie oliver",
+		"rating": 4
+	},
+	{
+		"cover": "assets/images/jamies_italy.png",
+		"title": "jamie's italy",
+		"author": "jamie oliver",
+		"rating": 5
+	},
+	{
+		"cover": "assets/images/complete_book_of_vegetables.png",
+		"title": "vegetables cookbook",
+		"author": "matthew biggs",
+		"rating": 3.7
+	}
+]

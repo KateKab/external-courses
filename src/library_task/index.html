@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="library.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="sidebar.css" />
     <title>My library</title>
   </head>
   <body>
@@ -18,36 +21,83 @@
       <div class="account">
         <div class="avatar">
           <img
+            alt="&#xf007;"
             src="https://cloudstatic.eva.ru/eva/720000-730000/722554/channel/16066f94b3ab3059c1d41426523ac68a_5341195214264767.jpg"
           />
         </div>
         <div class="username">
           <p>John Doe</p>
         </div>
-        <button class="menuDrop">
-          <img
-            class="arrowDrop"
-            src="/src/library_task/assets/images/dropArrow.svg"
-          />
-        </button>
+        <button class="menuDrop"></button>
       </div>
     </header>
     <main>
-      <nav></nav>
+      <div class="sidebar">
+        <div class="addBook">
+          <button class="addBookBtn">Add a book</button>
+        </div>
+        <div class="navigator">
+          <p class="nowReading"><span>&#xf02d;</span>Now reading</p>
+          <p class="browse"><span>&#xf0ac;</span>Browse</p>
+          <p class="buyBooks"><span>&#xf07a;</span>Buy books</p>
+          <p class="favourieBooks"><span>&#xf005;</span>favourite Books</p>
+          <p class="whishlist"><span>&#xf00b;</span>whishlist</p>
+          <p class="history"><span>&#xf017;</span>history</p>
+        </div>
+        <div class="categories">
+          <p class="mustRead"><span>&#8226;</span>must read titles</p>
+          <p class="best"><span>&#8226;</span>best of list</p>
+          <p class="classic"><span>&#8226;</span>classic novels</p>
+          <p class="nonFiction"><span>&#8226;</span>non fiction</p>
+        </div>
+        <div class="history">
+          <div class="historyNote">
+            <div class="histNoteIcon">&#xf017;</div>
+            <div class="histNoteText">
+              You added
+              <span class="bookName">Fight club</span>
+              by <span class="bookAuthor">Chuck Palahnick</span>
+              to your
+              <span class="bookCategory">must read titles</span>
+              <p class="timeStamp"><span class="time">24 </span> minutes ago</p>
+            </div>
+          </div>
+          <div class="historyNote">
+            <div class="histNoteIcon">&#xf017;</div>
+            <div class="histNoteText">
+              You added
+              <span class="bookName">the trial</span>
+              by <span class="bookAuthor">franz kafka</span>
+              to your
+              <span class="bookCategory">must read titles</span>
+              <p class="timeStamp"><span class="time">48 </span> minutes ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="contentHeader">Browse available books</div>
+        <div class="contentSelection">
+          <div class="sections">
+            <div class="all">All books</div>
+            <div class="recent">most recent</div>
+            <div class="popular">most popular</div>
+            <div class="free">free books</div>
+          </div>
+          <div class="search">
+            <form class="searchString" action="" method="get">
+              <input name="s" placeholder="enter keywords" type="search" />
+              <button type="submit">&#xf002;</button>
+            </form>
+          </div>
+        </div>
+        <div class="mainContent"></div>
+      </div>
     </main>
     <footer>
-      <button class="questions">
-        <img
-          class="questionSVG"
-          src="/src/library_task/assets/images/questionmark.svg"
-        />
-      </button>
-      <button class="settings">
-        <img
-          class="settingSVG"
-          src="/src/library_task/assets/images/settings.svg"
-        />
-      </button>
+      <button class="questions"></button>
+      <button class="settings"></button>
     </footer>
+    <script src="library.js"></script>
   </body>
 </html>

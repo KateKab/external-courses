@@ -133,3 +133,52 @@
     text-transform: capitalize;
     color: #78829d;
 }
+
+.addBookModal {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    overflow: hidden;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    padding: 20px 20px 20px 20px;
+    background-color: #181e2c;
+    border-radius: 4px;
+    color: #78829d;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputTitle, .inputAuthor {
+    width: 250px;
+    background-color: #1f2637;
+    border: none;
+    border-radius: 4px;
+    color: #78829d;
+}
+
+input::-webkit-file-upload-button {
+    background-color: #1f2637;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.confirmAdd {
+    height: 30px;
+    width: 60px;
+    position: relative;
+    left: 80%;
+    border-radius: 4px;
+    background-color: #f2795a;
+    border: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    padding: 0 12px 0 12px;
+}

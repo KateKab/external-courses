@@ -1,0 +1,183 @@
+@font-face {
+    font-family: fontAwesome;
+    src: url(assets/fonts/FontAwesome.otf);
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url(assets/fonts/Proxima\ Nova\ Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+html, body {
+    height: 625px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'proximaNova';
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.contentHeader {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    background-color: #eef1f7;
+    border-bottom: 1px solid #dadfea;
+    font-size: 22px;
+    line-height: 26px;
+    color: #444c63;
+    text-transform: capitalize;
+    padding: 0 20px 0 20px;
+}
+
+.contentSelection {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    background-color: #eef1f7;
+    border-top: 1px solid #f4f6fa;
+    border-bottom: 1px solid #dadfea;
+    padding: 0 20px 0 20px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row nowrap;
+}
+
+.sections div {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 26px;
+    color: #98b3ce;
+    text-transform: capitalize;
+    height: 20px;
+    padding: 0 10px 0 10px;
+}
+
+.sections div:active, .sections div:hover {
+    border-radius: 9px;
+    background-color: #97b3ce;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search {
+    width: 35%;
+    height: 25px;
+}
+
+.searchString ::placeholder {
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 26px;
+    color: #8c97b2;
+}
+
+.searchString input {
+    width: 100%;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: 1px solid rgba(140, 151, 178, 0.4);
+    padding: 0 20px 0 20px;
+    outline: none;
+}
+
+.searchString button {
+    position: absolute;
+    top: 84px;
+    right: 30px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 15px;
+    background-color: #ffffff;
+    color: #8c97b2;
+    font-family: "fontAwesome";
+}
+
+.searchString input:focus {
+    border: 3px solid rgba(140, 151, 178, 0.4);
+}
+
+.mainContent {
+    overflow-y: scroll;
+    height: 485px;
+    padding: 10px 0 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.mainContent::-webkit-scrollbar, body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mainContent::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #ccd5e4;
+}
+
+.book {
+    margin: 10px 10px 15px 10px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookCover {
+    max-height: 275px;
+    border-radius: 4px;
+    background-color: #97b3ce;
+    flex-grow: 3;
+}
+
+.title {
+    font-size: 16px;
+    color: #444c63;
+    text-transform: capitalize;
+    margin: 8px 0 8px 0;
+}
+
+.author {
+    font-size: 12px;
+    color: #6f7d95;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.rating {
+    width: 190px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffab00;
+    font-family: "fontAwesome";
+    margin: 8px 0 0 0;
+}

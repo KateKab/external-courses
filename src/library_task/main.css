@@ -174,7 +174,8 @@ main {
 }
 
 .rating {
-    width: 190px;
+    cursor: pointer;
+    width: 70px;
     font-size: 14px;
     letter-spacing: 1px;
     color: #ffab00;

@@ -85,10 +85,15 @@
             <div class="free">free books</div>
           </div>
           <div class="search">
-            <form class="searchString" action="" method="get">
-              <input name="s" placeholder="enter keywords" type="search" />
-              <button type="submit">&#xf002;</button>
-            </form>
+            <div class="searchString">
+              <input
+                class="searchField"
+                name="s"
+                placeholder="enter keywords"
+                type="search"
+              />
+              <button class="searchButton" type="submit">&#xf002;</button>
+            </div>
           </div>
         </div>
         <div class="mainContent"></div>
@@ -98,6 +103,15 @@
       <button class="questions"></button>
       <button class="settings"></button>
     </footer>
+    <div class="addBookModal">
+      <p class="input">Title: <input class="inputTitle" type="text" /></p>
+      <p class="input">Author: <input class="inputAuthor" type="text" /></p>
+      <p>
+        Cover:
+        <input class="inputImg" type="file" alt="" />
+      </p>
+      <button type="submit" class="confirmAdd">Add</button>
+    </div>
     <script src="library.js"></script>
   </body>
 </html>

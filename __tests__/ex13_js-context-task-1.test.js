@@ -1,6 +1,6 @@
-const {task} = require('~utils')('ex14_js-context');
+const {task} = require('~utils')('ex13_js-context');
 
-describe('Ex14. JS Context. Task 1', () => {
+describe('Ex13. JS Context. Task 1', () => {
     task('01', code => {
         beforeEach(() => {
             code.reset && code.reset();
